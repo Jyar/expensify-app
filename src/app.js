@@ -12,7 +12,7 @@ import 'react-dates/lib/css/_datepicker.css'
 
 const store = configureStore();
 
-// set default values here with dispatch
+// set default values here with dispatch - test
 // const state = store.getState();
 // const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 // console.log(visibleExpenses);
