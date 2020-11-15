@@ -17,8 +17,12 @@ import * as firebase from 'firebase';
   firebase.initializeApp(firebaseConfig);
 
   const database = firebase.database();
+  const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+  googleAuthProvider.setCustomParameters({
+    'login_hint': 'user@example.com'
+  });
 
-  export { firebase, database as default };
+  export { firebase, googleAuthProvider, database as default };
 
 //   // child_removed
 //   database.ref('expenses').on('child_removed', (snapshot) => {
