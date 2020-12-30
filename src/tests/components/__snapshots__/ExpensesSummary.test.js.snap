@@ -17,7 +17,7 @@ exports[`should return 1 expense if no 1 expense 1`] = `
       </span>
        
       expense
-       totalling 
+       totaling 
       <span>
         $2.35
          
@@ -55,7 +55,7 @@ exports[`should return 2 expenses if multiple expenses 1`] = `
       </span>
        
       expenses
-       totalling 
+       totaling 
       <span>
         $2.35
          
